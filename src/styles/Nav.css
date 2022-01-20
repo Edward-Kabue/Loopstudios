@@ -1,0 +1,7 @@
+.navbar {
+  position: fixed;
+  display: flex;
+}
+.ham {
+  flex-direction: left;
+}

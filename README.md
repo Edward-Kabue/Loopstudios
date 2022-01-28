@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+Frontend Mentor - Loopstudios landing page solution
+This is a solution to the Loopstudios landing page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of contents
+Overview
+The challenge
+Screenshot
+Links
+My process
+Built with
+What I learned
+Continued development
+Useful resources
+Author
+Acknowledgments
+Note: Delete this note and update the table of contents based on what sections you keep.
 
-## Available Scripts
+Overview
+The challenge
+Users should be able to:
 
-In the project directory, you can run:
+View the optimal layout for the site depending on their device's screen size
+See hover states for all interactive elements on the page
+Screenshot
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Alternatively, you can use a tool like FireShot to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
-### `npm test`
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.
 
-### `npm run build`
+Links
+Solution URL: Add solution URL here
+Live Site URL: Add live site URL here
+My process
+Built with
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+CSS Grid
+Mobile-first workflow
+React - JS library
+Next.js - React framework
+Styled Components - For styles
+Note: These are just examples. Delete this note and replace the list above with your own choices
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+What I learned
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To see how you can add code snippets, see below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h1>Some HTML code I'm proud of</h1>
+.proud-of-this-css {
+  color: papayawhip;
+}
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+If you want more help with writing markdown, we'd recommend checking out The Markdown Guide to learn more.
 
-### `npm run eject`
+Note: Delete this note and the content within this section and replace with your own learnings.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Useful resources
+Example resource 1 - Styled components
+Example resource 2 - react icons
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Author
+Website - Edward Kabue
+Frontend Mentor - @Edward-Kabue
+Twitter - @ekabue0
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

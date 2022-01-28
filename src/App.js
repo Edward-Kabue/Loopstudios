@@ -4,20 +4,28 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Leader from "./components/Leader";
 import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./pages/about";
+import Services from "./pages/services";
+import Contact from "./pages/contact";
+import Careers from "./pages/careers";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/about" element={About} />
+          <Route path="/careers" element={Careers} />
+          <Route path="/services" element={Services} />
+          <Route path="/contact-us" element={Contact} />
+        </Routes>
+      </Router>
       <Hero />
       <Leader />
       <Creations />
       <Footer />
-      About Careers Events Products Support Our award-winning creations have
-      transformed businesses through digital experiences that bind to their
-      brand. Our creations See all Deep earth Night arcade Soccer team VR The
-      grid From up above VR Pocket borealis The curiosity Make it fisheye About
-      Careers Events Products Support © 2021 Loopstudios. All rights reserved.
     </div>
   );
 }

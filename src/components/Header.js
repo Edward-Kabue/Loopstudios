@@ -1,16 +1,16 @@
-import React from "react";
-import logo from "../images/logo.svg";
+import React from 'react'
+import logo from '../images/logo.svg'
 
 const Header = () => {
   const showNav = () => {
-    const menuBtn = document.querySelector(".menu-btn");
-    const navbar = document.querySelector("nav");
+    const menuBtn = document.querySelector('.menu-btn')
+    const navbar = document.querySelector('nav')
 
-    menuBtn.addEventListener("click", () => {
-      navbar.classList.toggle("open");
-      menuBtn.classList.toggle("rotate");
-    });
-  };
+    menuBtn.addEventListener('click', () => {
+      navbar.classList.toggle('open')
+      menuBtn.classList.toggle('rotate')
+    })
+  }
 
   return (
     <>
@@ -49,7 +49,7 @@ const Header = () => {
         </div>
       </header>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

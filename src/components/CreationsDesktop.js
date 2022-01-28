@@ -1,28 +1,33 @@
-import React from "react";
-import data from "../data-desktop";
+import React from 'react'
+import data from '../data-desktop'
 
-const Creations = () => {
-  // const [cards] = useState(data);
+const CreationsDesktop = () => {
+  // eslint-disable-next-line
+  const [cards, setCards] = React.useState(data)
 
   return (
     <section className="creations-desktop">
-      <h2>Our creations</h2>
+      <div className="title">
+        <h2>Our creations</h2>
+        <div className="btn-container">
+          <button className="btn">See All</button>
+        </div>
+      </div>
       <section>
-        {data.map((e) => {
-          // const { id, image, title } = data;
+        {cards.map((card) => {
+          const { id, image, title } = card
           return (
-            <article key={e.id}>
-              <img src={e.image} alt="creations card" />
-              <h3>{e.title}</h3>
+            <article key={id}>
+              <div>
+                <img src={image} alt="creations card" />
+              </div>
+              <h3>{title}</h3>
             </article>
-          );
+          )
         })}
       </section>
-      <div className="btn-container">
-        <button className="btn">See All</button>
-      </div>
     </section>
-  );
-};
+  )
+}
 
-export default Creations;
+export default CreationsDesktop

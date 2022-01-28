@@ -1,5 +1,5 @@
-import React from "react";
-import interactiveImg from "../images/desktop/image-interactive.jpg";
+import React from 'react'
+import interactiveImg from '../images/desktop/image-interactive.jpg'
 
 const Interactive = () => {
   return (
@@ -20,7 +20,7 @@ const Interactive = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Interactive;
+export default Interactive

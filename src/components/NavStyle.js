@@ -3,12 +3,13 @@ import { NavLink as Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
 export const Nav = styled.nav`
-  background: #000;
   height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
-  z-index: 10;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
 `;
 export const NavLink = styled(Link)`
   color: #fff;
@@ -18,6 +19,8 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   &.active {
     color: #15cdfc;
   }

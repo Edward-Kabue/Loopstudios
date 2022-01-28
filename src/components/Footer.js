@@ -1,27 +1,39 @@
-import React from "react";
-import img from "../images/logo.svg";
-import {
-  FaTwitter,
-  FaFacebookSquare,
-  FaPinterest,
-  FaInstagram,
-} from "react-icons/fa";
+import React from 'react'
+import logo from '../images/logo.svg'
+import { GrFacebook } from 'react-icons/gr'
+import { FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa'
+
 const Footer = () => {
   return (
     <>
-      <div className="footer">
-        <div className="logo">
-          <img src={img} alt="logo" />
+      <footer className="footer">
+        <div>
+          <div className="logo">
+            <img src={logo} alt="" />
+          </div>
           <ul>
-            <li>About</li>
-            <li>Careers</li>
-            <li>Events</li>
-            <li>Products</li>
-            <li>Support</li>
+            <li>
+              <button>About</button>
+            </li>
+            <li>
+              <button>Careers</button>
+            </li>
+            <li>
+              <button>Events</button>
+            </li>
+            <li>
+              <button>Products</button>
+            </li>
+            <li>
+              <button>Support</button>
+            </li>
           </ul>
+        </div>
+
+        <div>
           <ul className="social">
             <li>
-              <FaFacebookSquare />
+              <GrFacebook />
             </li>
             <li>
               <FaTwitter />
@@ -33,13 +45,14 @@ const Footer = () => {
               <FaInstagram />
             </li>
           </ul>
+
           <div className="copyright">
             &copy; 2021 Loopstudios. All rights reserved.
           </div>
         </div>
-      </div>
+      </footer>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

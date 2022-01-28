@@ -1,42 +1,42 @@
 const data = [
   {
     id: 1,
-    image: './images/desktop/image-deep-earth.jpg',
+    image: './images/mobile/image-deep-earth.jpg',
     title: 'Deep earth',
   },
   {
     id: 2,
-    image: './images/desktop/image-night-arcade.jpg',
+    image: './images/mobile/image-night-arcade.jpg',
     title: 'Night arcade',
   },
   {
     id: 3,
-    image: './images/desktop/image-soccer-team.jpg',
+    image: './images/mobile/image-soccer-team.jpg',
     title: 'Soccer Team Vr',
   },
   {
     id: 4,
-    image: './images/desktop/image-grid.jpg',
+    image: './images/mobile/image-grid.jpg',
     title: 'The grid',
   },
   {
     id: 5,
-    image: './images/desktop/image-from-above.jpg',
+    image: './images/mobile/image-from-above.jpg',
     title: 'From Up above vr',
   },
   {
     id: 6,
-    image: './images/desktop/image-pocket-borealis.jpg',
+    image: './images/mobile/image-pocket-borealis.jpg',
     title: 'Pocket Borealis',
   },
   {
     id: 7,
-    image: './images/desktop/image-curiosity.jpg',
+    image: './images/mobile/image-curiosity.jpg',
     title: 'The curiosity',
   },
   {
     id: 8,
-    image: './images/desktop/image-fisheye.jpg',
+    image: './images/mobile/image-fisheye.jpg',
     title: 'Make it fisheye',
   },
 ]

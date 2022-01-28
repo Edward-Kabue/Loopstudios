@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Showcase = () => {
   return (
@@ -9,7 +9,7 @@ const Showcase = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Showcase
+export default Showcase;

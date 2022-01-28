@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../img/logo.svg";
-import hamburger from "../img/icon-hamburger.svg";
+import logo from "../images/logo.svg";
+import hamburger from "../images/icon-hamburger.svg";
 
 export default function Navbar() {
   return (

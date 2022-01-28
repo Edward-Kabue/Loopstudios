@@ -1,12 +1,17 @@
 import React from "react";
-import img from "../img/image-interactive.jpg";
+// import Img from "../images/desktop/image-interactive.jpg";
 
 function Leader() {
   return (
     <>
       <section className="interactive">
         <div>
-          <img src={img} alt="vr-img" />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/desktop/image-interactive.jpg"
+            }
+            alt="vr-img"
+          />
         </div>
 
         <div className="interactive-text">

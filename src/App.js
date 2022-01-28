@@ -1,8 +1,8 @@
 import "./App.css";
-import Creations from "./components/Creations.component";
-import Hero from "./components/Hero.component";
-import Leader from "./components/Leader.component";
-import Navbar from "./components/Navbar.component";
+import Creations from "./components/Creations";
+import Hero from "./components/Hero";
+import Leader from "./components/Leader";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
